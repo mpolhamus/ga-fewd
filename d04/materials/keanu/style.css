@@ -1,0 +1,36 @@
+h1 {
+  color: #7FDBFF;
+  font-size: 75px;
+  background-color: black;
+  height: 100px;
+  width: 510px;
+  padding:50px;
+  margin-bottom: 25px;
+  text-align: center;
+
+}
+
+body{
+	font-family: helvetica;
+}
+
+p {
+	border-style: solid;
+	border-width: 5px;
+	width: 500px;
+	padding: 50px;
+	text-align: center;
+}
+
+ul{
+	border: dashed black 2px;
+	width: 510px;
+	padding: 50px;	
+}
+
+div{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin-bottom: 50px;
+}

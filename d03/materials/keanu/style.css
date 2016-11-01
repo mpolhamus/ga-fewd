@@ -1,0 +1,24 @@
+/*
+This is my first CSS file
+*/
+
+h1 {
+	color: red;
+	font-family: helvetica;
+	font-size: 60px;
+	}
+
+.text-highlight {
+	color: orange;
+}
+
+#red-bar {
+	background-color: red;
+	color: white;
+}
+
+body {
+	font-family: helvetica;
+	font-size: 20px;
+	color: gray;
+}

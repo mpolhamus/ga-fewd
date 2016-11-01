@@ -1,0 +1,17 @@
+.highlight {
+	color: red;
+	font-size: 30px;
+}
+
+h1 {
+	color: blue;
+	font-family: helvetica;
+}
+
+body {
+	font-family: helvetica;
+}
+
+#gray-background{
+	background: grey;
+}
