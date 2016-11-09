@@ -61,11 +61,17 @@ a:hover{
 
 .bottom_nav{
 	color: #dddddd;
+
 }
 
 .bottom_nav a{
 	color: red;
-	margin: 5px
+	margin: 5px;
+	text-decoration: none;
+}
+
+.bottom_nav a:hover{
+	color: #aa0000;
 }
 
 .post a{
@@ -81,4 +87,8 @@ a:hover{
 	border-bottom: solid;
 	border-bottom-width: thin;
 	margin-bottom: 50px;
+}
+
+.copyright{
+	color: #bbbbbb;
 }
