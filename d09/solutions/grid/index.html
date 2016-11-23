@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playground</title>
+  <style type="text/css">
+    div#container {
+      width: 100%;
+      min-width: 680px;
+    }
+
+    .grid .row {
+      margin: 0 0 1px 0;
+      height: 30px;
+    }
+
+    .grid .piece {
+      margin: 0;
+      height: 30px;
+      width: 30px;
+      border: 1px black dotted;
+      display: inline-block;
+    }
+
+    .grid .piece.block {
+      box-shadow: 1px 1px 1px dimgrey;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <div id="container"></d iv>
+  </center>
+
+  <script src="./app.js"></script>
+  <script type="text/javascript">
+    var g = new Grid(20);
+    g.attachTo('#container');
+  </script>
+
+  <script>
+    // g.fill(1, 2, "color purple");
+    // g.fill(2, 3, "color red");
+
+    // ask the user for a color, and fill in 5, 9
+    // var colorFromTheUser = prompt("What color do you want?");
+
+    // var xAsString = prompt("What x coordinate do you want?");
+    // var xAsNumber = parseInt(xAsString);
+
+    // var yAsString = prompt("What y coordinate do you want?");
+    // var yAsNumber = parseInt(yAsString);
+
+    // g.fill(xAsNumber, yAsNumber, "color " + colorFromTheUser);
+
+    // var userResponse = prompt("Do you want to fill in another square?");
+
+    // if ( userResponse === "yes" ) {
+    //   g.fill(5, 9, "color orange");
+    // } else {
+    //   var secondChance = prompt("DO YOU WANT TO FILL IN A SQUARE?????");
+
+    //   if (secondChance === "yes") {
+    //     g.fill(5, 9, "color orange");
+    //   } else {
+    //     alert("Well fine.")
+    //   }
+    // }
+
+    // var x = 0;
+
+    // while (x < 20) {
+    //   g.fill(x, 0, "color orange");
+    //   x = x + 1;
+    // }
+
+    var y = 0;
+
+    while (y < 20) {
+      if (y % 2 === 0) {
+        var x = 0;
+      } else {
+        var x = 1;
+      }
+
+      while (x < 20) {
+        g.fill(x, y, "color blue");
+        x = x + 2;
+      }
+
+      y = y + 1;
+    }
+
+  </script>
+
+</body>
+</html>

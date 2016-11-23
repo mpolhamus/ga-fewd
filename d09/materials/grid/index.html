@@ -39,12 +39,58 @@
   </script>
 
   <script>
-    g.fill(1,2, "color #2fd8d0");
+    // g.fill(1,2, "color #2fd8d0");
 
     //ask the user for a color, and fill in 2,2
 
-    colorFromUser = prompt ("What color do you want?");
-    g.fill(2,2, colorFromUser);
+    // var colorFromUser = prompt ("What color do you want?");
+    // var xAsString = prompt ("What x coordinate do you want?");
+    // var xAsNumber = parseInt(xAsString);
+
+    // var yAsString = prompt ("What y coordinate do you want?");
+    // var yAsNumber = parseInt (yAsString);
+
+    // g.fill(xAsNumber ,yAsNumber , "color " + colorFromUser);
+
+    // var userResponse = prompt("Do you want to fill in?");
+
+    // if ( userResponse ==== "yes" ) {
+    //     g.fill(5,9, "color orange");
+    // } else {
+    //   var secondChance = prompt ("Do you want to fill in?");
+    // if (secondChance) 
+    // }
+
+    // var x = 0
+    
+    // while ( x < 20) {
+    //   g.fill( x, 0, "color black");
+    //   x = x + 2;
+    // }
+
+    var y = 0;
+
+    while (y < 20) {
+      if (y % 2 === 0){
+        var x = 0;
+      } else {
+        var x = 1;
+      }
+    }
+        while ( x < 20) {
+          g.fill( x, y, "color black");
+          x = x + 2;
+        }
+        y = y + 1;
+
+
+
+
+
+  
+
+
+
     
   </script>
 </body>
