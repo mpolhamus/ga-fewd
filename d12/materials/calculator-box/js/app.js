@@ -43,6 +43,11 @@ $("#n30").click(function(){
 	$("#out").text(count);
 })
 
+$("#n30").click(function(){
+	count = count - 30;
+	$("#out").text(count);
+})
+
 $("#out").click(function(){
 	count = 0;
 	$("#out").text(count);

@@ -1,0 +1,56 @@
+
+.menu, .menu-b{
+	border: 1px solid;
+	border-color: #939696;
+	width: 75px;
+	border-radius: 7px;
+	margin-bottom: 5px;
+}
+
+.button-group{
+	padding-left: 20px;
+	padding-top: 20px
+}
+
+p {
+	text-align: center;
+}
+
+#arrow{
+	font-size: .7em;
+}
+
+.menu:hover, .menu-b:hover{
+	background-color: #DEE0E0;
+}
+
+.menu-items, .menu-items-b{
+	border: 1px solid;
+	border-color: #939696;
+	width: 115px;
+	border-radius: 5px;
+	display: none;
+	box-shadow: 5px 5px 8px #F0F0F0;
+}
+
+.menu-b, .menu{
+	display: inline-block;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+a:hover{
+	background-color: #DEE0E0;
+}
+
+.open{
+	display: inline-block;
+}
+
+
+

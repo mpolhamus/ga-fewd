@@ -1,0 +1,58 @@
+header {
+  background-color: black;
+}
+
+header h2 {
+  color: #fff;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: #fff;
+  padding: 1.5em 0;
+  display: inline-block;
+}
+
+.logo {
+  display: relative;
+}
+
+i {
+  display: none;
+  position: absolute;
+  right: 25px;
+  padding: 24px 0;
+  cursor: pointer;
+}
+
+i span {
+  width: 16px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  margin: 3px 0;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  i {
+    display: inline-block;
+  }
+
+  nav {
+    text-align: center;
+    display: none;
+  }
+
+  nav.open {
+    display: inherit;
+  }
+
+  nav a {
+    display: block;
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ice Cream Shop</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/simple-grid.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+  <header class="grid">
+    <h1 class="col-1-2">
+    	Ice Cream Shop
+    	 <div class="menu">
+  			<div class="hamburger"></div>
+  			<div class="hamburger"></div>
+  			<div class="hamburger"></div>
+		</div>
+    </h1>
+
+    <nav class="col-1-2" id="nav-menu">
+      <a href="#">About Us</a>
+      <a href="#">Menu</a>
+      <a href="#">Jobs</a>
+    </nav>
+  
+  </header>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  
+  <script type="text/javascript">
+	$(".menu").on("click", function(){
+		$("#nav-menu").toggle();
+	});
+
+</script>
+
+</body>
+
+
+
+</html>
+

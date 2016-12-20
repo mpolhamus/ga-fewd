@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dropdown Buttons</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="button-group">
+		<div class="menu">
+			<p>File <span id="arrow">&#x25BC;</span></p>
+		</div>
+
+		<div class="menu-items">
+			<a href="#">Open</a>
+			<a href="#">Save</a>
+		</div>
+
+		<div class="menu-b">
+			<p>File <span id="arrow">&#x25BC;</span></p>
+		</div>
+
+		<div class="menu-items-b">
+			<a href="#">Open</a>
+			<a href="#">Save</a>
+		</div>
+
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<script type="text/javascript">
+		
+		$(".menu").on("click", function() {
+	  		$(".menu-items").toggleClass("open");
+		 });
+
+		$(".menu-b").on("click", function() {
+	  		$(".menu-items-b").toggleClass("open");
+		 });
+
+
+	</script>
+
+
+</body>
+
+</html>
